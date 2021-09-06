@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Font?>
+
+<Button maxWidth="280.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="280.0" stylesheets="@../css/_base_styles.css" text="Button" textAlignment="RIGHT" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <font>
+      <Font size="14.0" />
+   </font>
+</Button>

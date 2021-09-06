@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="680.0" spacing="10.0" stylesheets="@../css/_base_styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#030303" strokeType="OUTSIDE" strokeWidth="0.0" text="OVERVIEW" wrappingWidth="700.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <ScrollPane fitToHeight="true" fitToWidth="true" pannable="true" VBox.vgrow="ALWAYS">
+         <content>
+            <TilePane alignment="CENTER" hgap="10.0" styleClass="track">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="350.0" stylesheets="@../css/_base_styles.css">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="15">
+                           <font>
+                              <Font size="64.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="New Customers">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="350.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="19">
+                           <font>
+                              <Font size="64.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cars In Using">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="350.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="101">
+                           <font>
+                              <Font size="64.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Total Customers">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="350.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="20">
+                           <font>
+                              <Font size="64.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Total Cars">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+               </children>
+            </TilePane>
+         </content>
+      </ScrollPane>
+   </children>
+</VBox>

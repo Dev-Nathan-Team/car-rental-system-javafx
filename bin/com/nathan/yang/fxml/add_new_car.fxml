@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="680.0" spacing="10.0" stylesheets="@../css/_base_styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nathan.yang.controllers.AddNewCarController">
+   <children>
+      <Text fill="#030303" strokeType="OUTSIDE" strokeWidth="0.0" text="ADD NEW CAR" wrappingWidth="700.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Pane prefHeight="43.0" prefWidth="700.0" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <VBox layoutX="280.0" layoutY="10.0" spacing="10.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox>
+                     <children>
+                        <Label text="Car Plate Number" />
+                        <TextField />
+                     </children>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="10.0">
+                     <children>
+                        <Label text="Brand Name" />
+                        <TextField />
+                     </children>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="64.0">
+                     <children>
+                        <Label text="Car Type" />
+                        <TextField />
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <VBox layoutX="280.0" layoutY="10.0" spacing="10.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox>
+                     <children>
+                        <Label text="Years Since Bought" />
+                        <TextField />
+                     </children>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="10.0">
+                     <children>
+                        <Label text="Engine Pistons" />
+                        <TextField />
+                     </children>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="64.0">
+                     <children>
+                        <Label text="Emission Volume" />
+                        <TextField />
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Pane layoutX="10.0" layoutY="49.0" prefHeight="43.0" prefWidth="700.0" VBox.vgrow="ALWAYS" />
+      <HBox alignment="CENTER_RIGHT">
+         <children>
+            <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+               <children>
+                  <Button fx:id="addNewCarBtn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Submit" textAlignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
