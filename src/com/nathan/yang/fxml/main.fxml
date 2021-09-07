@@ -51,7 +51,7 @@
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome">
                      <font>
-                        <Font size="18.0" />
+                        <Font size="48.0" />
                      </font>
                   </Text>
                </children>

@@ -27,8 +27,6 @@ public class CarsTableViewController implements Initializable {
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 
-//		carsTableView = new TableView<>(items);
-//		carsTableView = new TableView<>(items);
 		carsTableView.setItems(items);
 		
 		TableColumn<TableCells, String> columnIndex = new TableColumn<>("#");
